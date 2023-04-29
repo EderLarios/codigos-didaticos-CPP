@@ -1,0 +1,71 @@
+cmake_minimum_required(VERSION 3.15)
+project(libro)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(.)
+
+add_executable(libro
+    aritmeticaMenor.cpp
+    barrasAsteriscos.cpp
+    Bienvenido.cpp
+    Bienvenido2.cpp
+    Bienvenido3.cpp
+    breakFor.cpp
+    calculadoraSalario.cpp
+    caliClase.h
+    Califica.h
+    calificacionesClase.h
+    calificacionesYClase.cpp
+    comisionesVentas.cpp
+    constructores.cpp
+    contador.cpp
+    contadorDoWhile.cpp
+    contadorFor.cpp
+    continueFor.cpp
+    CuadradosCubos.cpp
+    CuadradoYCubo.cpp
+    Cuenta.cpp
+    Cuenta.h
+    DigitosEnteros.cpp
+    dosMAyores.cpp
+    elMain.cpp
+    Empleado.cpp
+    Empleado.h
+    Factura.cpp
+    Factura.h
+    Fecha.cpp
+    Fecha.h
+    filaColumna.cpp
+    frecuenciaRand.cpp
+    imparesProducto.cpp
+    instruccionIf.cpp
+    kilometrajeGasolina.cpp
+    ladosCuadrado.cpp
+    LibroCalifi.cpp
+    LibroCalifi.h
+    LibroCalifica.cpp
+    libroCalificaciones.cpp
+    LibroCalificaciones.h
+    libroCalificaciones1.cpp
+    libroCalificaciones2.cpp
+    limiteCredito.cpp
+    MasaCorporal.cpp
+    masGrande.cpp
+    menorFor.cpp
+    operaLogicos.cpp
+    patronesFor.cpp
+    piInfinito.cpp
+    producto.cpp
+    productosSwitch.cpp
+    promedioFor.cpp
+    rand.cpp
+    random.cpp
+    rollDice.cpp
+    salidaTabular.cpp
+    semillaRand.cpp
+    setwYSetpreci.cpp
+    SumaDeEnteros.cpp
+    sumaFor.cpp
+    sumCicloFor.cpp
+    unsignedWhile.cpp)
